@@ -1,0 +1,28 @@
+{% extends 'core/base.html' %}   
+{% load static %}
+{% block content %}
+<div class="mt-5">
+    <div class="text-center">
+        <img src="{% static 'core/image/pic1.jpg' %}" alt="ProfilePic"
+    class="img-thumbnail" width="250px" height="150px">
+    </div>
+    <div class="mt-5 text-white mx-5 text-justify">
+        <h1 class="font-weight-bold st-font">Hello,</h1>
+        <div class="px-4" style="line-hieght:2rem;">
+            <p style="text-indent:100px;">I am <b class="text-warning">Ayushi Mishra,</b>
+                a recent graduate in Computer Science and Engineering. I have Engineering from Ambalika 
+                Institute of Management and Technology</b>, affiliated to the prestigious <b class="text-warning">Dr. A.P.J Abdul Kalam Technical University</b>. 
+                With a keen interest in programming and web development, I have acquired proficient knowledge in languages such as C, HTML/CSS, JavaScript, SQL, MySQL, and Java. Additionally, 
+                I have also worked on Python-based projects using frameworks like Django.</p>
+                <p>Apart from my academic and professional endeavors, I am an avid basketball player and have secured the 
+                second place thrice at the AKTU zonals. I am also passionate about reading books, which allows me to enhance my knowledge and broaden my perspective.
+                With excellent communication skills, problem-solving abilities, and leadership acumen, I am confident in my ability to contribute positively to any team I am a part of.</p>
+                <p>As a fresher, I am excited to explore and learn new things in my chosen field, and I am eager to utilize my skills to make a valuable contribution to any organization.</p>
+                </p>
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="" class="btn btn-outline-warning my-3 mr-5">Hire Me</a> 
+        <a href="" class="btn btn-outline-info my-3">Contact</a></div> 
+</div> 
+{% endblock content %}
