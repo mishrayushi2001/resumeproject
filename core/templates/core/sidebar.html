@@ -8,9 +8,9 @@
     </div>
     <hr class="border-light">
     <nav class="nav flex-column text-center">
-        <a href="" class="nav-link">Home</a>
-        <a href="" class="nav-link">Services</a>
-        <a href="" class="nav-link">Skill</a>
-        <a href="" class="nav-link">Contact</a>   
+        <a href="{% url 'home' %}" class="nav-link {{home}}">Home</a>
+        {% comment %} <a href="serv/services.html" class="nav-link">Services</a> {% endcomment %}
+        <a href="{% url 'skill' %}" class="nav-link">Skill</a>
+        <a href="{% url 'contact' %}" class="nav-link">Contact</a>   
     </nav>
 </div>
